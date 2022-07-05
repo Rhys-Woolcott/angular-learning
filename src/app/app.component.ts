@@ -1,7 +1,8 @@
 import { Title } from '@angular/platform-browser';
 import { Component } from '@angular/core';
 
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faMessage, faBell } from '@fortawesome/free-solid-svg-icons';
+// import { faHouse } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,8 @@ export class AppComponent {
   title = `Clicked: ${this.clicked}`;
 
   faHouse = faHouse;
+  faMessage = faMessage;
+  faBell = faBell;
 
   constructor(private titleService: Title) {}
 

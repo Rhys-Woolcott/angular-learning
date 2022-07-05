@@ -3,7 +3,8 @@
   "version": 1,
   "newProjectRoot": "projects",
   "cli": {
-    "packageManager": "yarn"
+    "packageManager": "yarn",
+    "analytics": "65c4260a-e17c-45bf-a3a6-e5ae5d214d16"
   },
   "projects": {
     "hello-angular": {
@@ -111,6 +112,5 @@
         }
       }
     }
-  },
-  "defaultProject": "hello-angular"
+  }
 }

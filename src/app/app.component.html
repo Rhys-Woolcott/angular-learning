@@ -11,17 +11,25 @@
   <nav sidenav>
     <ul>
       <li selected>
-        <!-- logo goes here -->
-        <fa-icon class="fa-solid fa-house"></fa-icon>
-        <a href="#">Home</a>
+        <a (click)="setTitle('Home')">
+          <fa-icon class="nav-icon" [icon]="faHouse"></fa-icon>
+
+          <p class="nav-link-text">Home</p>
+        </a>
       </li>
       <li>
-        <!-- logo goes here -->
-        <a href="#">Messages</a>
+        <a (click)="setTitle('Messages')">
+          <fa-icon class="nav-icon" [icon]="faMessage"></fa-icon>
+
+          <p class="nav-link-text">Messages</p>
+        </a>
       </li>
       <li>
-        <!-- logo goes here -->
-        <a href="#">Notifications</a>
+        <a (click)="setTitle('Notifications')">
+          <fa-icon class="nav-icon" [icon]="faBell"></fa-icon>
+
+          <p class="nav-link-text">Notifications</p>
+        </a>
       </li>
     </ul>
   </nav>
